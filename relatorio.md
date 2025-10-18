@@ -1,11 +1,11 @@
-#Definição do Problema
+# Definição do Problema
 
-#Regras Usadas para Gerar a Classe Alvo
+# Regras Usadas para Gerar a Classe Alvo
 
-#Base Sintética
+# Base Sintética
 
-#Experimentos do Weka
+# Experimentos do Weka
 
-#Resultados
+# Resultados
 
-#Análise critíca dos resultados em relação ao domínio de IHC
+# Análise critíca dos resultados em relação ao domínio de IHC
