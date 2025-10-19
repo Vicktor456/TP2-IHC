@@ -8,7 +8,7 @@ O objetivo central do Trabalho Prático 2 (TP2) é integrar conceitos de Intera�
 
 - Ana Paula Melo de Souza Pacheca.
 - Davi Vitor Santos Mota.
-- David Análio ALfaia dos Santos.
+- David Análio Alfaia dos Santos.
 - Isabely Cristina Barbosa Beça.
 - Vicktor Eduardo Almeida Pinheiro.
 - Thiago Vasconcelos de Assunção.
