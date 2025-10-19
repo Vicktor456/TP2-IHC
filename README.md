@@ -12,3 +12,11 @@ O objetivo central do Trabalho Prático 2 (TP2) é integrar conceitos de Intera�
 - Isabely Cristina Barbosa Berça.
 - Vicktor Eduardo Almeida Pinheiro.
 - Thiago Vasconcelos de Assunção.
+
+# Curso
+
+Engenharia de Software
+
+# Docente
+
+Andrey Antonio de Oliveira Rodrigues
