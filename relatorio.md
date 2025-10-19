@@ -17,6 +17,16 @@ Esses atributos foram definidos com base em fatores reconhecidamente relevantes 
 
 # Regras Usadas para Gerar a Classe Alvo
 
+Com base nessas regras, o sistema classifica a experiência do usuário em três categorias distintas, configurando um problema de classificação multiclasse:
+
+- Experiência Positiva: quando a maioria dos atributos apresenta valores dentro das faixas positivas;
+
+- Experiência Neutra: quando há equilíbrio entre indicadores positivos e negativos;
+
+- Experiência Negativa: quando predominam valores nas faixas negativas.
+
+A natureza multiclasse do problema se justifica pela diversidade de percepções e comportamentos dos usuários frente às interfaces digitais. A experiência do usuário não é um fenômeno binário — ela varia em graus e combinações de fatores técnicos e subjetivos, exigindo uma classificação mais granular para representar adequadamente as nuances entre satisfação, neutralidade e insatisfação.
+
 # Base Sintética
 
 # Experimentos do Weka
