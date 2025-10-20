@@ -35,4 +35,14 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 
 ## Análise dos Algoritmos
 
+### ZeroR (Algoritmo Base)
+
+### OneR
+
+### J48 (Algaritmo "árvore")
+
+### IBK
+
+### Naive Bayes
+
 # Análise critíca dos resultados em relação ao domínio de IHC
