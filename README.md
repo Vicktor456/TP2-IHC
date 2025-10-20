@@ -28,7 +28,7 @@ Andrey Antonio de Oliveira Rodrigues
 
 # Geração da Base de Dados Sintética
 
-[ETAPA 2 - Geração da Base de Dados Sintética](https://github.com/Vicktor456/TP2-IHC/blob/main/Gera%C3%A7%C3%A3o%20da%20Base%20de%20Dados%20Sint%C3%A9tica)
+[ETAPA 2 - Geração da Base de Dados Sintética](https://github.com/Vicktor456/TP2-IHC/blob/main/Base_Sint%C3%A9tica.arff)
 
 
 # Exploração e Classificação no Weka
