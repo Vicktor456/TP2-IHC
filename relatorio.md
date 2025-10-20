@@ -310,6 +310,187 @@ c = Negativa
 
 ### IBK
 
+#### Imagens dos Resultados Coletados do Algoritmo
+
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/8e273d1d-5479-456d-b5f5-0db14fe6fb8e" />
+
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/cf59b395-8e2d-44b8-b747-074c100b404f" />
+
+#### Transcrição
+
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     experiencia_usuario_redes_sociais
+Instances:    200
+Attributes:   6
+              Quantidade de tempo de Anuncio
+              Confianca de Privacidade
+              Tempo de Atividade
+              Indice de Imersao Algoritmica (IIA)
+              Eficiencia de resposta do Sistema
+              Classe-Alvo
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.05 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          54               79.4118 %
+Incorrectly Classified Instances        14               20.5882 %
+Kappa statistic                          0.6569
+Mean absolute error                      0.1441
+Root mean squared error                  0.3665
+Relative absolute error                 35.8187 %
+Root relative squared error             82.2431 %
+Total Number of Instances               68     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,950    0,167    0,704      0,950    0,809      0,729    0,892     0,683     Positiva
+                 0,757    0,161    0,848      0,757    0,800      0,593    0,798     0,774     Neutra
+                 0,636    0,018    0,875      0,636    0,737      0,707    0,809     0,616     Negativa
+Weighted Avg.    0,794    0,140    0,810      0,794    0,792      0,652    0,827     0,722     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  
+ 19  1  0
+ 
+  8 28  1
+  
+  0  4  7
+  
+
+a = Positiva
+
+b = Neutra
+
+c = Negativa
+
+
 ### Naive Bayes
+
+#### Imagens dos Resultados Coletados do Algoritmo
+
+<img width="364" height="234" alt="image" src="https://github.com/user-attachments/assets/46ed14de-10ec-4950-b09b-334fb37cde27" />
+
+<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/ea6fc324-86d5-46e6-ab55-2f96eae62bb9" />
+
+#### Naive Bayes Classifier
+
+<img width="510" height="400" alt="image" src="https://github.com/user-attachments/assets/5f13671a-4793-4767-8c82-becbc4ef2c69" />
+
+<img width="499" height="400" alt="image" src="https://github.com/user-attachments/assets/700a5748-4e91-4427-b824-b6d04cadece9" />
+
+#### Transcrição
+
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     experiencia_usuario_redes_sociais
+Instances:    200
+Attributes:   6
+              Quantidade de tempo de Anuncio
+              Confianca de Privacidade
+              Tempo de Atividade
+              Indice de Imersao Algoritmica (IIA)
+              Eficiencia de resposta do Sistema
+              Classe-Alvo
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                          Class
+Attribute                              Positiva    Neutra  Negativa
+                                         (0.33)    (0.51)    (0.16)
+====================================================================
+Quantidade de tempo de Anuncio
+  mean                                   24.0578   30.8998   35.1893
+  std. dev.                               8.8954   12.2689   11.0106
+  weight sum                                  65       103        32
+  precision                               0.2013    0.2013    0.2013
+
+Confianca de Privacidade
+  mean                                    6.9538    4.9029    3.6875
+  std. dev.                               2.5203    2.8405    2.4036
+  weight sum                                  65       103        32
+  precision                                    1         1         1
+
+Tempo de Atividade
+  mean                                   72.5344   61.1148   46.4284
+  std. dev.                              14.5748   17.6439   15.4468
+  weight sum                                  65       103        32
+  precision                               0.3074    0.3074    0.3074
+
+Indice de Imersao Algoritmica (IIA)
+  mean                                    7.1231    5.3107    2.8125
+  std. dev.                                2.545    2.6985    1.7219
+  weight sum                                  65       103        32
+  precision                                    1         1         1
+
+Eficiencia de resposta do Sistema
+  mean                                 1750.0606 2055.0189 2371.1269
+  std. dev.                            1037.2609 1138.7048 1092.2373
+  weight sum                                  65       103        32
+  precision                              20.0518   20.0518   20.0518
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          50               73.5294 %
+Incorrectly Classified Instances        18               26.4706 %
+Kappa statistic                          0.5285
+Mean absolute error                      0.2584
+Root mean squared error                  0.3654
+Relative absolute error                 64.2392 %
+Root relative squared error             81.9925 %
+Total Number of Instances               68     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,700    0,083    0,778      0,700    0,737      0,637    0,932     0,871     Positiva
+                 0,838    0,387    0,721      0,838    0,775      0,466    0,743     0,705     Neutra
+                 0,455    0,035    0,714      0,455    0,556      0,508    0,864     0,668     Negativa
+Weighted Avg.    0,735    0,241    0,737      0,735    0,728      0,523    0,818     0,748     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  
+ 14  6  0
+ 
+  4 31  2
+  
+  0  6  5
+
+a = Positiva
+
+b = Neutra
+
+c = Negativa
+
 
 # Análise critíca dos resultados em relação ao domínio de IHC
