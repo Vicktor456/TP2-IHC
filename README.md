@@ -23,10 +23,14 @@ Andrey Antonio de Oliveira Rodrigues
 
 ##  Definção do Problema
 
-[Definição do Problema](https://github.com/Vicktor456/TP2-IHC/blob/main/Defini%C3%A7%C3%A3o%20do%20Problema)
+[ETAPA 1 - Definição do Problema](https://github.com/Vicktor456/TP2-IHC/blob/main/Defini%C3%A7%C3%A3o%20do%20Problema)
 
 
 ## Geração da Base de Dados Sintética
 
-[Geração da Base de Dados Sintética](https://github.com/Vicktor456/TP2-IHC/blob/main/Gera%C3%A7%C3%A3o%20da%20Base%20de%20Dados%20Sint%C3%A9tica)
+[ETAPA 2 - Geração da Base de Dados Sintética](https://github.com/Vicktor456/TP2-IHC/blob/main/Gera%C3%A7%C3%A3o%20da%20Base%20de%20Dados%20Sint%C3%A9tica)
 
+
+## Exploração e Classificação no Weka
+
+[ETAPA 4 - Exploração e Classificação no Weka]()
