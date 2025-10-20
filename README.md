@@ -46,5 +46,8 @@ Andrey Antonio de Oliveira Rodrigues
 
 - Métrica de 1 a 10  
 
-- Tempo de resposta (ms) 
+- Tempo de resposta
 
+| atributos preditores | descrição |
+
+|1. Tempo de Anúncio |
