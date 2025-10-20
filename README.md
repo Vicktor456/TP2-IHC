@@ -50,4 +50,5 @@ Andrey Antonio de Oliveira Rodrigues
 
 | atributos preditores | descrição |
 
+|:---|:---|:---|:---|
 |1. Tempo de Anúncio |
