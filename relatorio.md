@@ -104,6 +104,82 @@ c = Negativa
 
 ### OneR
 
+#### Imagens dos Resultados Coletados do Algoritmo
+
+<img width="359" height="418" alt="image" src="https://github.com/user-attachments/assets/3dd495db-578e-456c-ad49-eba2d287831f" />
+
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/ed03acce-9c60-4222-a1af-0bd09292f413" />
+
+#### Transcrição 
+
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     experiencia_usuario_redes_sociais
+Instances:    200
+Attributes:   6
+              Quantidade de tempo de Anuncio
+              Confianca de Privacidade
+              Tempo de Atividade
+              Indice de Imersao Algoritmica (IIA)
+              Eficiencia de resposta do Sistema
+              Classe-Alvo
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Tempo de Atividade:
+	< 40.97	-> Neutra
+	< 48.08	-> Negativa
+	< 67.435	-> Neutra
+	< 71.41	-> Positiva
+	< 76.24000000000001	-> Neutra
+	< 84.52	-> Positiva
+	< 87.455	-> Neutra
+	< 89.33500000000001	-> Positiva
+	>= 89.33500000000001	-> Neutra
+(127/200 instances correct)
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          28               41.1765 %
+Incorrectly Classified Instances        40               58.8235 %
+Kappa statistic                          0.0166
+Mean absolute error                      0.3922
+Root mean squared error                  0.6262
+Relative absolute error                 97.4905 %
+Root relative squared error            140.5295 %
+Total Number of Instances               68     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,450    0,396    0,321      0,450    0,375      0,050    0,527     0,306     Positiva
+                 0,459    0,516    0,515      0,459    0,486      -0,056   0,472     0,531     Neutra
+                 0,182    0,088    0,286      0,182    0,222      0,114    0,547     0,184     Negativa
+Weighted Avg.    0,412    0,411    0,421      0,412    0,411      0,002    0,500     0,409     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  
+  9   11    0
+  
+ 15   17    5
+ 
+  4   5     2
+
+a = Positiva
+b = Neutra
+c = Negativa
+ 
 ### J48 (Algaritmo "árvore")
 
 ### IBK
