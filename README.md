@@ -23,29 +23,3 @@ Andrey Antonio de Oliveira Rodrigues
 
 # Definção do Problema
 
-## Atributos
-
-- Quantidade de tempo de Anúncio  
-
-- Confiança de Privacidade  
-
-- Tempo de Atividade  
-
-- Indice de Imersão Algorítmica (IIA)  
-
-- Eficiência de resposta do Sistema
-
-
-## Regras 
-
-- Tempo médio de Anúncio  
-
-- Métrica de 1 a 10 
-
-- Tempo médio por sessão  
-
-- Métrica de 1 a 10  
-
-- Tempo de resposta
-
-
