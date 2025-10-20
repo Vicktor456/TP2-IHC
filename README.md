@@ -48,7 +48,4 @@ Andrey Antonio de Oliveira Rodrigues
 
 - Tempo de resposta
 
-| atributos preditores | descrição |
 
-|:---|:---|:---|:---|
-|1. Tempo de Anúncio |
