@@ -33,4 +33,4 @@ Andrey Antonio de Oliveira Rodrigues
 
 # Exploração e Classificação no Weka
 
-[ETAPA 4 - Exploração e Classificação no Weka](https://github.com/Vicktor456/TP2-IHC/blob/main/Explora%C3%A7%C3%A3o%20e%20Classifica%C3%A7%C3%A3o%20Weka)
+[ETAPA 3 - Exploração e Classificação no Weka](https://github.com/Vicktor456/TP2-IHC/blob/main/Explora%C3%A7%C3%A3o%20e%20Classifica%C3%A7%C3%A3o%20Weka)
