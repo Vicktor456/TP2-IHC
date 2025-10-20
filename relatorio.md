@@ -97,9 +97,12 @@ Weighted Avg.    0,544    0,544    ?          0,544    ?          ?        0,500
   0   37    0
   
   0   11    0
+  
 
 a = Positiva
+
 b = Neutra
+
 c = Negativa
 
 ### OneR
@@ -175,12 +178,135 @@ Weighted Avg.    0,412    0,411    0,421      0,412    0,411      0,002    0,500
  15   17    5
  
   4   5     2
+  
 
 a = Positiva
+
 b = Neutra
+
 c = Negativa
  
 ### J48 (Algaritmo "árvore")
+
+#### Imagens dos Resultados Coletados do Algoritmo
+
+<img width="389" height="226" alt="image" src="https://github.com/user-attachments/assets/59716308-a33e-4f11-8020-6731b2d08db4" />
+
+<img width="600" height="501" alt="image" src="https://github.com/user-attachments/assets/b0e8b12a-a7f5-4977-9a55-33eddf6d3b62" />
+
+
+#### Árvore
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/dc25940a-7510-4ae6-918c-c90bba8b376f" />
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/ed3fda1f-0854-49d6-b5ef-5f6117c11f65" />
+
+#### Transcrição 
+
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     experiencia_usuario_redes_sociais
+Instances:    200
+Attributes:   6
+              Quantidade de tempo de Anuncio
+              Confianca de Privacidade
+              Tempo de Atividade
+              Indice de Imersao Algoritmica (IIA)
+              Eficiencia de resposta do Sistema
+              Classe-Alvo
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Indice de Imersao Algoritmica (IIA) <= 5
+|   Confianca de Privacidade <= 4
+|   |   Tempo de Atividade <= 53.35: Negativa (19.0/2.0)
+|   |   Tempo de Atividade > 53.35
+|   |   |   Quantidade de tempo de Anuncio <= 35.34: Neutra (18.0)
+|   |   |   Quantidade de tempo de Anuncio > 35.34
+|   |   |   |   Indice de Imersao Algoritmica (IIA) <= 4: Negativa (7.0)
+|   |   |   |   Indice de Imersao Algoritmica (IIA) > 4: Neutra (2.0)
+|   Confianca de Privacidade > 4
+|   |   Quantidade de tempo de Anuncio <= 33.7
+|   |   |   Tempo de Atividade <= 50.45: Neutra (8.0/1.0)
+|   |   |   Tempo de Atividade > 50.45
+|   |   |   |   Eficiencia de resposta do Sistema <= 3025: Positiva (16.0/4.0)
+|   |   |   |   Eficiencia de resposta do Sistema > 3025: Neutra (5.0)
+|   |   Quantidade de tempo de Anuncio > 33.7
+|   |   |   Eficiencia de resposta do Sistema <= 2348: Neutra (12.0)
+|   |   |   Eficiencia de resposta do Sistema > 2348
+|   |   |   |   Tempo de Atividade <= 61.39: Negativa (4.0)
+|   |   |   |   Tempo de Atividade > 61.39: Neutra (7.0/1.0)
+Indice de Imersao Algoritmica (IIA) > 5
+|   Tempo de Atividade <= 62.74
+|   |   Quantidade de tempo de Anuncio <= 32.45
+|   |   |   Confianca de Privacidade <= 4: Neutra (14.0/1.0)
+|   |   |   Confianca de Privacidade > 4: Positiva (15.0/3.0)
+|   |   Quantidade de tempo de Anuncio > 32.45
+|   |   |   Quantidade de tempo de Anuncio <= 48.87: Neutra (20.0)
+|   |   |   Quantidade de tempo de Anuncio > 48.87: Negativa (2.0)
+|   Tempo de Atividade > 62.74
+|   |   Confianca de Privacidade <= 3
+|   |   |   Indice de Imersao Algoritmica (IIA) <= 9
+|   |   |   |   Tempo de Atividade <= 66.8: Positiva (3.0)
+|   |   |   |   Tempo de Atividade > 66.8: Neutra (8.0)
+|   |   |   Indice de Imersao Algoritmica (IIA) > 9: Positiva (3.0)
+|   |   Confianca de Privacidade > 3
+|   |   |   Eficiencia de resposta do Sistema <= 3025: Positiva (31.0)
+|   |   |   Eficiencia de resposta do Sistema > 3025
+|   |   |   |   Quantidade de tempo de Anuncio <= 32.45: Positiva (3.0)
+|   |   |   |   Quantidade de tempo de Anuncio > 32.45: Neutra (3.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	39
+
+
+Time taken to build model: 0.05 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          43               63.2353 %
+Incorrectly Classified Instances        25               36.7647 %
+Kappa statistic                          0.3796
+Mean absolute error                      0.254 
+Root mean squared error                  0.4802
+Relative absolute error                 63.1532 %
+Root relative squared error            107.7697 %
+Total Number of Instances               68     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,800    0,250    0,571      0,800    0,667      0,509    0,765     0,502     Positiva
+                 0,622    0,355    0,676      0,622    0,648      0,266    0,575     0,608     Neutra
+                 0,364    0,035    0,667      0,364    0,471      0,427    0,666     0,363     Negativa
+Weighted Avg.    0,632    0,272    0,644      0,632    0,625      0,363    0,646     0,537     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  
+ 16  4  0
+ 
+ 12 23  2
+ 
+  0  7  4
+  
+
+a = Positiva
+
+b = Neutra
+
+c = Negativa
 
 ### IBK
 
