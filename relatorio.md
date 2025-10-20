@@ -31,4 +31,6 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 
 # Resultados dos Experimentos do Weka
 
+## Análise dos Algoritmos
+
 # Análise critíca dos resultados em relação ao domínio de IHC
