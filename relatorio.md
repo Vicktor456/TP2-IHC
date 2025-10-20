@@ -29,8 +29,6 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 
 # Base Sintética
 
-# Experimentos do Weka
-
-# Resultados
+# Resultados dos Experimentos do Weka
 
 # Análise critíca dos resultados em relação ao domínio de IHC
