@@ -36,44 +36,61 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 
 <img width="1363" height="746" alt="image" src="https://github.com/user-attachments/assets/79f1cb09-51ca-4361-9358-2204cacbda2e" />
 
+Interpretação:
 
 ### Indice de Imersao x Tempo de Atividade
 
 <img width="1365" height="744" alt="image" src="https://github.com/user-attachments/assets/e96371c2-174c-4f2a-b11b-a35d20521c07" />
 
+Interpretação:
 
 ### Tempo de Atividade x Quantidade de tempo de anuncio
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/f682bdc9-f91d-4a69-9bf5-10aa62b93795" />
 
+Interpretação:
 
 ### Confianca de Privacidade x Indice de Imersao Algoritimica
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/2092df92-f26d-4824-93b9-2812b5a43c1d" />
 
+Interpretação:
+
 ### Quantidade de tempo de anuncio x Confianca de Privacidade
 
 <img width="1365" height="747" alt="image" src="https://github.com/user-attachments/assets/40a70878-fada-4aff-ad1a-4d4adf179ca1" />
+
+Interpretação:
 
 ### Classe Alvo x Tempo de Anuncio
 
 <img width="1359" height="742" alt="image" src="https://github.com/user-attachments/assets/33b4d3cf-3fb9-444b-b311-2bd340b4ea2a" />
 
+Interpretação:
+
 ### Classe Alvo x Confiança de Privacidade
 
 <img width="1361" height="744" alt="image" src="https://github.com/user-attachments/assets/e44525af-03ce-484f-9515-e45635ca8810" />
+
+Interpretação:
 
 ### Classe Alvo x Tempo de Atividade
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/c09a91a4-347a-43e0-83f8-f6a7618d13d4" />
 
+Interpretação:
+
 ### Classe Alvo x IIA
 
 <img width="1365" height="749" alt="image" src="https://github.com/user-attachments/assets/c547f03f-5289-4ce6-8de4-b2e8d3dc785a" />
 
+Interpretação:
+
 ### Classe Alvo x Eficiencia de Resposta
 
 <img width="1364" height="742" alt="image" src="https://github.com/user-attachments/assets/bff5f105-2e0a-4782-8c16-ce5c9c39c574" />
+
+Interpretação:
 
 ## Análise dos Algoritmos
 
