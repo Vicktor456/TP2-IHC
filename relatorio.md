@@ -66,7 +66,8 @@ Interpretação: A correlação visual indica que quanto menor o tempo de anúnc
 
 <img width="1359" height="742" alt="image" src="https://github.com/user-attachments/assets/33b4d3cf-3fb9-444b-b311-2bd340b4ea2a" />
 
-Interpretação:
+Interpretação:A relação entre a quantidade de tempo de anúncio e a classe-alvo (experiência do usuário), percebe-se um padrão de comportamento, a experiência positiva se concentram em regiões onde o tempo de anúncio é menor que 30 segundos, já as experiências negativas são localizados em regiões onde o anúncio tem tempo maior que 30 segundos, e conforme aumenta o tempo a experiência do usuário fica cada vez mais desagradável.
+Essa tendência evidencia que o tempo e a frequência de anúncios são fatores altamente discriminatórios para a avaliação da experiência do usuário (UX).
 
 ### Classe Alvo x Confiança de Privacidade
 
