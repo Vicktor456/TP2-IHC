@@ -60,7 +60,7 @@ Interpretação:
 
 <img width="1365" height="747" alt="image" src="https://github.com/user-attachments/assets/40a70878-fada-4aff-ad1a-4d4adf179ca1" />
 
-Interpretação:
+Interpretação: A correlação visual indica que quanto menor o tempo de anúncios exibidos, maior tende a ser a confiança de privacidade do usuário e, consequentemente, melhor é a experiência geral. Essa relação indica que a presença excessiva de anúncios pode causar sensação de invasão ou exposição de dados pessoais, levando o usuário a acreditar que suas informações estão sendo utilizadas de forma inadequada para fins de marketing. Por outro lado, quando o sistema apresenta poucos anúncios ou anúncios curtos, o usuário percebe o ambiente como mais seguro e confiável, resultando em uma experiência mais positiva.
 
 ### Classe Alvo x Tempo de Anuncio
 
