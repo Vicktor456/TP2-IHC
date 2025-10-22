@@ -32,6 +32,26 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 # Resultados dos Experimentos do Weka
 
 ## Análise dos Gráficos de Correlação dos Atributos
+### Eficiência de Resposta x Tempo de Atividade
+
+### Índice de Imersão x Tempo de Atividade
+
+### Tempo de Atividade x Quantidade de tempo de anuncio
+
+### Indice de Imersao Algoritimica x Confiança de Privacidade
+
+### Quantidade de tempo de anuncio x Confiança de Privacidade
+
+### Classe Alvo x Tempo de Anuncio
+
+### Classe Alvo x Confiança de Privacidade
+
+### Classe Alvo x Tempo de Atividade
+
+### Classe Alvo x IIA
+
+### Classe Alvo x Eficiencia de Resposta
+
 
 ## Análise dos Algoritmos
 
