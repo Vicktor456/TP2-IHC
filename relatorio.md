@@ -34,13 +34,13 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 ## Análise dos Gráficos de Correlação dos Atributos
 ### Eficiência de Resposta x Tempo de Atividade
 
-### Índice de Imersão x Tempo de Atividade
+### Indice de Imersao x Tempo de Atividade
 
 ### Tempo de Atividade x Quantidade de tempo de anuncio
 
-### Indice de Imersao Algoritimica x Confiança de Privacidade
+### Indice de Imersao Algoritimica x Confianca de Privacidade
 
-### Quantidade de tempo de anuncio x Confiança de Privacidade
+### Quantidade de tempo de anuncio x Confianca de Privacidade
 
 ### Classe Alvo x Tempo de Anuncio
 
