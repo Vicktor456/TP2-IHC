@@ -79,12 +79,7 @@ Interpretação:
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/c09a91a4-347a-43e0-83f8-f6a7618d13d4" />
 
-Interpretação: Aqui está a descrição da análise de forma mais concisa, mantendo o estilo dissertativo:
-
----
-
-### Análise: Tempo de Atividade versus IIA (Texto Enxuto)
-
+Interpretação:
 O gráfico demonstra que o Tempo de Atividade não é um preditor linear do Índice de Imersão Algorítmica (IIA), com os dados amplamente dispersos. Usuários com baixo IIA estão distribuídos em toda a faixa de Tempo de Atividade, indicando que o tempo gasto não determina a baixa imersão.
 
 Contudo, observa-se uma tendência importante: a maior concentração de usuários com Alto IIA (os mais imersos) está associada às faixas mais elevadas de Tempo de Atividade.
