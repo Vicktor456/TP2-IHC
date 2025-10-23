@@ -84,20 +84,29 @@ Essa tendência evidencia que o tempo e a frequência de anúncios são fatores 
 
 <img width="1361" height="744" alt="image" src="https://github.com/user-attachments/assets/e44525af-03ce-484f-9515-e45635ca8810" />
 
-Interpretação: 
+Interpretação: A relação entre a Confiança de Privacidade e a Classe-Alvo mostra que maior confiança está associada a experiências mais positivas, indicando que sentir-se seguro em relação ao uso dos dados aumenta a satisfação e o engajamento do usuário.
+Por outro lado, baixa confiança gera mais experiências negativas, refletindo o impacto da insegurança e do receio sobre a interação com as redes sociais.
+As experiências neutras aparecem em quantidade relevante, sugerindo que muitos usuários mantêm uma postura indiferente em relação à privacidade, seja por hábito ou falta de conhecimento.
+Em síntese, o gráfico indica que, embora exista uma relação entre a confiança na privacidade e a experiência do usuário, esse fator não se mostra tão determinante quanto outros, como o índice de imersão algorítmica. A confiança influencia a percepção geral, mas não é o principal elemento na definição da experiência digital, atuando mais como um complemento à sensação de segurança e conforto durante o uso das redes sociais.
 
 ### Classe Alvo x Tempo de Atividade
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/c09a91a4-347a-43e0-83f8-f6a7618d13d4" />
 
-Interpretação:
+Interpretação:A relação entre o Tempo de Atividade e a Classe-Alvo, mostra-se um dos fatores mais determinantes da análise. Observa-se que quanto maior o tempo de permanência no sistema, mais positiva tende a ser a experiência do usuário. Isso ocorre porque o engajamento prolongado indica satisfação com o conteúdo, sensação de recompensa e envolvimento com a plataforma.
+Usuários que permanecem por longos períodos demonstram afinidade com a dinâmica algorítmica e confiança no ambiente digital, o que reforça a percepção de prazer e fluidez na navegação. Em contrapartida, tempos curtos de atividade estão associados a experiências negativas, sugerindo desinteresse, desconforto ou falta de conexão com o conteúdo.
+Dessa forma, o gráfico evidencia que o tempo de atividade é um forte indicador da qualidade da experiência do usuário, funcionando como um reflexo direto do grau de satisfação e engajamento com o sistema.
 
 
 ### Classe Alvo x IIA
 
 <img width="1365" height="749" alt="image" src="https://github.com/user-attachments/assets/c547f03f-5289-4ce6-8de4-b2e8d3dc785a" />
 
-Interpretação: O IIA atua como um forte indicador da classificação Positiva na Classe-Alvo, com a maioria dos indivíduos nesta categoria exibindo um Alto Índice de Imersão Algorítmica. Por outro lado, a Imersão Algorítmica é Baixa nas classificações Negativa e Neutra, embora ambas as categorias apresentem uma ampla dispersão de IIA, sugerindo que a classificação Neutra em particular não é bem diferenciada apenas pelo nível de imersão.
+Interpretação: A relação entre o Índice de Imersão Algorítmica (IIA) e a Classe-Alvo, que representa a experiência do usuário em redes sociais, revela um padrão consistente e intuitivo. De modo geral, quanto maior o nível de imersão algorítmica, melhor é a experiência do usuário, uma vez que a personalização de conteúdo contribui para uma percepção mais satisfatória da vivência digital.
+Quando o usuário percebe que o sistema compreende suas preferências e interesses, tende a experimentar maior prazer e engajamento durante o uso, fortalecendo a relação entre indivíduo e plataforma.
+Por outro lado, níveis reduzidos de imersão estão associados a maior incidência de experiências negativas, devido à falta de conexão com o conteúdo apresentado. Nesses casos, o sistema tende a oferecer recomendações pouco versáteis e superficiais.
+É perceptível que experiências neutras predominam em parte significativa dos casos, indicando que muitos usuários mantêm uma postura indiferente em relação ao índice de imersão algorítmica.
+Em síntese, o gráfico evidencia que o grau de imersão algorítmica é um fator determinante para a qualidade subjetiva da experiência do usuário, reforçando o papel dos algoritmos na criação de ambientes digitais mais envolventes, personalizados e satisfatórios.
 
 
 ### Classe Alvo x Eficiencia de Resposta
