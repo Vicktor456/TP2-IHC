@@ -46,7 +46,11 @@ Interpretação: Em geral, observa-se que usuários com maior tempo de atividade
 
 <img width="1365" height="744" alt="image" src="https://github.com/user-attachments/assets/e96371c2-174c-4f2a-b11b-a35d20521c07" />
 
-Interpretação:
+Interpretação:  O gráfico demonstra que o Tempo de Atividade não é um preditor linear do Índice de Imersão Algorítmica (IIA), com os dados amplamente dispersos. Usuários com baixo IIA estão distribuídos em toda a faixa de Tempo de Atividade, indicando que o tempo gasto não determina a baixa imersão.
+
+Contudo, observa-se uma tendência importante: a maior concentração de usuários com Alto IIA (os mais imersos) está associada às faixas mais elevadas de Tempo de Atividade.
+
+Conclui-se que o Tempo de Atividade não garante o IIA, mas atua como uma **condição facilitadora** para a maioria dos usuários atingirem os níveis mais altos de Imersão Algorítmica.
 
 ### Tempo de Atividade x Quantidade de tempo de anuncio
 
@@ -58,7 +62,8 @@ Interpretação: A análise do gráfico de dispersão, que correlaciona o Tempo 
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/2092df92-f26d-4824-93b9-2812b5a43c1d" />
 
-Interpretação:
+Interpretação: Existe uma dispersão fraca, porém levemente positiva ao associar a Confiança de Privacidade com o Índice de Imersão Algorítmica. A dispersão dos pontos no gráfico é bem alta, então a Confiança de Privacidade não é um forte preditor linear do IIA. Embora o gráfico insinue levemente que pessoas com Confiança de Privacidade mais alta tenham maior Índice de Imersão Algorítmica, é uma relação muito fraca e pode não ser confiável.
+
 
 ### Quantidade de tempo de anuncio x Confianca de Privacidade
 
@@ -77,24 +82,21 @@ Essa tendência evidencia que o tempo e a frequência de anúncios são fatores 
 
 <img width="1361" height="744" alt="image" src="https://github.com/user-attachments/assets/e44525af-03ce-484f-9515-e45635ca8810" />
 
-Interpretação:
+Interpretação: 
 
 ### Classe Alvo x Tempo de Atividade
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/c09a91a4-347a-43e0-83f8-f6a7618d13d4" />
 
 Interpretação:
-O gráfico demonstra que o Tempo de Atividade não é um preditor linear do Índice de Imersão Algorítmica (IIA), com os dados amplamente dispersos. Usuários com baixo IIA estão distribuídos em toda a faixa de Tempo de Atividade, indicando que o tempo gasto não determina a baixa imersão.
 
-Contudo, observa-se uma tendência importante: a maior concentração de usuários com Alto IIA (os mais imersos) está associada às faixas mais elevadas de Tempo de Atividade.
-
-Conclui-se que o Tempo de Atividade não garante o IIA, mas atua como uma **condição facilitadora** para a maioria dos usuários atingirem os níveis mais altos de Imersão Algorítmica.
 
 ### Classe Alvo x IIA
 
 <img width="1365" height="749" alt="image" src="https://github.com/user-attachments/assets/c547f03f-5289-4ce6-8de4-b2e8d3dc785a" />
 
-Interpretação:
+Interpretação: O IIA atua como um forte indicador da classificação Positiva na Classe-Alvo, com a maioria dos indivíduos nesta categoria exibindo um Alto Índice de Imersão Algorítmica. Por outro lado, a Imersão Algorítmica é Baixa nas classificações Negativa e Neutra, embora ambas as categorias apresentem uma ampla dispersão de IIA, sugerindo que a classificação Neutra em particular não é bem diferenciada apenas pelo nível de imersão.
+
 
 ### Classe Alvo x Eficiencia de Resposta
 
