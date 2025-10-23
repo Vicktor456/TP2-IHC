@@ -57,16 +57,19 @@ Usuários com baixo índice de imersão tendem a apresentar experiências neutra
 
 Interpretação: A análise do gráfico de dispersão, que correlaciona o Tempo de Atividade versus a Quantidade de Tempo de Anúncio, revela uma relação crucial para a Experiência do Usuário (UX): embora não haja uma correlação linear uniforme em toda a base de dados, a presença de pontos vermelhos, que representam a Classe-Alvo Negativa, é mais densa na região onde o Tempo de Anúncio é elevado (acima de 35 segundos) e o Tempo de Atividade é baixo (abaixo de 45 minutos). Isso confirma que, ao obtermos dados negativos no atributo Quantidade de tempo de Anúncio, o atributo Tempo de Atividade também pode ficar com dados negativos, pois anúncios com tempo grande afetam negativamente a experiência do usuário, levando a um abandono mais rápido e, consequentemente, diminuindo o tempo de permanência na sessão. Inversamente, a UX Positiva (pontos verdes) concentra-se em regiões de baixo tempo de anúncio e alto tempo de atividade.
 
-### Confianca de Privacidade x Indice de Imersao Algoritimica
+### Confianca de Privacidade x Tempo de Atividade
 
-<img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/2092df92-f26d-4824-93b9-2812b5a43c1d" />
+<img width="1364" height="743" alt="image" src="https://github.com/user-attachments/assets/9dde238f-7b02-4268-a927-5c6c95dd4f67" />
 
-Interpretação: Existe uma dispersão fraca, porém levemente positiva ao associar a Confiança de Privacidade com o Índice de Imersão Algorítmica. A dispersão dos pontos no gráfico é bem alta, então a Confiança de Privacidade não é um forte preditor linear do IIA. Embora o gráfico insinue levemente que pessoas com Confiança de Privacidade mais alta tenham maior Índice de Imersão Algorítmica, é uma relação muito fraca e pode não ser confiável.
+
+Interpretação: A correlação entre o Tempo de Atividade e a Confiança na Privacidade sugere que usuários que permanecem mais tempo no sistema tendem a apresentar níveis mais altos de confiança em relação à segurança e proteção de dados da plataforma, é possível observar que, à medida que o tempo de uso aumenta, há maior concentração de experiências positivas (em azul), o que indica que a sensação de segurança e credibilidade influencia diretamente na permanência e engajamento dos usuários.
+Usuários que acreditam que suas informações estão seguras sentem-se mais confortáveis para navegar por períodos prolongados, enquanto aqueles que desconfiam da privacidade tendem a reduzir seu tempo de permanência, apresentando experiências negativas ou neutras.
 
 
 ### Quantidade de tempo de anuncio x Confianca de Privacidade
 
-<img width="1365" height="747" alt="image" src="https://github.com/user-attachments/assets/40a70878-fada-4aff-ad1a-4d4adf179ca1" />
+<img width="1365" height="749" alt="image" src="https://github.com/user-attachments/assets/0f8df6a6-e5b0-41e9-8781-5f3e3bf688ed" />
+
 
 Interpretação: A correlação visual indica que quanto menor o tempo de anúncios exibidos, maior tende a ser a confiança de privacidade do usuário e, consequentemente, melhor é a experiência geral. Essa relação indica que a presença excessiva de anúncios pode causar sensação de invasão ou exposição de dados pessoais, levando o usuário a acreditar que suas informações estão sendo utilizadas de forma inadequada para fins de marketing. Por outro lado, quando o sistema apresenta poucos anúncios ou anúncios curtos, o usuário percebe o ambiente como mais seguro e confiável, resultando em uma experiência mais positiva.
 
