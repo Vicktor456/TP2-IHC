@@ -32,6 +32,10 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 # Resultados dos Experimentos do Weka
 
 ## Análise dos Gráficos de Correlação dos Atributos
+### Tabela de Gráficos Completa
+
+<img width="1071" height="995" alt="image" src="https://github.com/user-attachments/assets/6539a6ba-9217-435f-a8da-b5302a472ab9" />
+
 ### Eficiência de Resposta x Tempo de Atividade
 
 <img width="1363" height="746" alt="image" src="https://github.com/user-attachments/assets/79f1cb09-51ca-4361-9358-2204cacbda2e" />
