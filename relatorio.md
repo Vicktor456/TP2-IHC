@@ -40,7 +40,7 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 
 <img width="1363" height="746" alt="image" src="https://github.com/user-attachments/assets/79f1cb09-51ca-4361-9358-2204cacbda2e" />
 
-Interpretação:
+Interpretação: Em geral, observa-se que usuários com maior tempo de atividade tendem a apresentar eficiências de resposta ligeiramente superiores, sugerindo que o uso contínuo pode estar associado a uma melhor adaptação ao sistema ou a um comportamento mais estável de desempenho. Apesar disso, a dispersão dos pontos indica que essa relação não é linear nem consistente — existem casos de alta eficiência mesmo com pouco tempo de atividade, assim como situações opostas. Portanto, o Tempo de Atividade exerce alguma influência sobre a Eficiência de Resposta, mas não de forma determinante.
 
 ### Indice de Imersao x Tempo de Atividade
 
