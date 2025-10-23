@@ -46,11 +46,10 @@ Interpretação: Em geral, observa-se que usuários com maior tempo de atividade
 
 <img width="1365" height="744" alt="image" src="https://github.com/user-attachments/assets/e96371c2-174c-4f2a-b11b-a35d20521c07" />
 
-Interpretação:  O gráfico demonstra que o Tempo de Atividade não é um preditor linear do Índice de Imersão Algorítmica (IIA), com os dados amplamente dispersos. Usuários com baixo IIA estão distribuídos em toda a faixa de Tempo de Atividade, indicando que o tempo gasto não determina a baixa imersão.
-
-Contudo, observa-se uma tendência importante: a maior concentração de usuários com Alto IIA (os mais imersos) está associada às faixas mais elevadas de Tempo de Atividade.
-
-Conclui-se que o Tempo de Atividade não garante o IIA, mas atua como uma **condição facilitadora** para a maioria dos usuários atingirem os níveis mais altos de Imersão Algorítmica.
+Interpretação:  A análise mostra um padrão diretamente proporcional entre o Indice de Imersão Algoritimica (IIA) e Tempo de Atividade, pois quanto maior o (IIA), maior o tende a ser o tempo de atividade do usuário no sistema.
+A correlação é relevante para compreender o comportamento dos usuários em redes sociais, pois indica que um alto nível de engajamento algorítimico, quando o conteudo é altamente relevante e personalizado para o usuário, mantendo o usuário ativo por perídos longos, frequentemente superando mais de uma hora de de uso contínuo.
+Além disso, observa-se que, nas regiões onde o IIA é elevado, há uma maior concentração de experiências positivas (em azul), o que reforça a hipótese de que imersão e satisfação estão fortemente relacionadas.
+Usuários com baixo índice de imersão tendem a apresentar experiências neutras ou negativas, uma vez que o sistema não consegue sustentar seu interesse de forma eficaz.
 
 ### Tempo de Atividade x Quantidade de tempo de anuncio
 
