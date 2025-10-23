@@ -52,7 +52,7 @@ Interpretação:
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/f682bdc9-f91d-4a69-9bf5-10aa62b93795" />
 
-Interpretação:
+Interpretação: A análise do gráfico de dispersão, que correlaciona o Tempo de Atividade versus a Quantidade de Tempo de Anúncio, revela uma relação crucial para a Experiência do Usuário (UX): embora não haja uma correlação linear uniforme em toda a base de dados, a presença de pontos vermelhos, que representam a Classe-Alvo Negativa, é mais densa na região onde o Tempo de Anúncio é elevado (acima de 35 segundos) e o Tempo de Atividade é baixo (abaixo de 45 minutos). Isso confirma que, ao obtermos dados negativos no atributo Quantidade de tempo de Anúncio, o atributo Tempo de Atividade também pode ficar com dados negativos, pois anúncios com tempo grande afetam negativamente a experiência do usuário, levando a um abandono mais rápido e, consequentemente, diminuindo o tempo de permanência na sessão. Inversamente, a UX Positiva (pontos verdes) concentra-se em regiões de baixo tempo de anúncio e alto tempo de atividade.
 
 ### Confianca de Privacidade x Indice de Imersao Algoritimica
 
