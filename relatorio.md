@@ -100,7 +100,8 @@ Interpretação:
 
 <img width="1364" height="742" alt="image" src="https://github.com/user-attachments/assets/bff5f105-2e0a-4782-8c16-ce5c9c39c574" />
 
-Interpretação:
+Interpretação: A relação entre Eficiência de Resposta do Sistema e Classe-Alvo mostra uma correlação fraca, indicando que variações na eficiência não influenciam significativamente as avaliações dos usuários. As três classes (positiva, negativa e neutra) aparecem distribuídas em todo o intervalo de eficiência, mas há predominância da classe neutra, sugerindo que a maioria dos usuários mantém percepções estáveis, independentemente do desempenho do sistema.
+
 
 ## Análise dos Algoritmos
 
