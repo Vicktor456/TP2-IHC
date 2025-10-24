@@ -193,7 +193,7 @@ c = Negativa
 
 #### Análise e descrição dos resultados (ZeroR)
 
-O algoritmo ZeroR serviu como o classificador baseline mais elementar para o conjunto de dados de UX de Redes Sociais, ignorando todos os atributos preditores e baseando suas previsões exclusivamente na frequência da classe-alvo. Como a classe "Neutra" era a majoritária no conjunto de treinamento, o modelo previu "Neutra" para todas as $68$ instâncias do conjunto de teste. Consequentemente, a acurácia do modelo foi de $54.4118\%$ (37 instâncias corretas), que é o limiar de desempenho esperado para a simples adivinhação da classe majoritária. O Kappa Statistic de $0$ e o Erro Absoluto Relativo de $100\%$ confirmam que o ZeroR não demonstrou qualquer aprendizado real ou aproveitamento das informações dos atributos. A Matriz de Confusão revelou que, embora a classe "Neutra" tenha alcançado um Recall de $100\%$, as classes "Positiva" e "Negativa" foram completamente negligenciadas (Recall de $0.000$), pois o modelo nunca as previu. Em conclusão, os resultados do ZeroR estabelecem o limite mínimo de acurácia para este problema; qualquer algoritmo de classificação subsequente deve superar significativamente os $54.4118\%$ para provar sua eficácia na identificação e diferenciação das três classes de UX.
+O algoritmo ZeroR serviu como o classificador baseline mais elementar para o conjunto de dados de UX de Redes Sociais, ignorando todos os atributos preditores e baseando suas previsões exclusivamente na frequência da classe-alvo. Como a classe "Neutra" era a majoritária no conjunto de treinamento, o modelo previu "Neutra" para todas as $68$ instâncias do conjunto de teste. Consequentemente, a acurácia do modelo foi de $54.4118\%$ (37 instâncias corretas), que é o limiar de desempenho esperado para a simples adivinhação da classe majoritária. O Kappa Statistic de $0$ e o Erro Absoluto Relativo de $100\%$ confirmam que o ZeroR não demonstrou qualquer aprendizado real ou aproveitamento das informações dos atributos. A Matriz de Confusão revelou que, embora a classe "Neutra" tenha alcançado um Recall de $100\%$, as classes "Positiva" e "Negativa" foram completamente negligenciadas (Recall de $0.000$), pois o modelo nunca as previu. Em conclusão, os resultados do ZeroR estabelecem o limite mínimo de acurácia para este problema; qualquer algoritmo de classificação subsequente deve superar significativamente os $54.4118\%$ para provar sua eficácia avaliação de UX.
 
 ### OneR
 
@@ -275,6 +275,10 @@ a = Positiva
 b = Neutra
 
 c = Negativa
+
+#### Análise e descrição dos resultados (OneR)
+
+
  
 ### J48 (Algaritmo "árvore")
 
