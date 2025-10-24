@@ -278,8 +278,8 @@ c = Negativa
 
 #### Análise e descrição dos resultados (OneR)
 
+O algoritmo OneR, apesar de ser o classificador simples mais promissor após o ZeroR, revelou-se ineficaz para a generalização no conjunto de dados de UX de Redes Sociais. O modelo selecionou o Tempo de Atividade como o atributo preditor mais forte (com $63.5\%$ de acurácia no treinamento), mas sua aplicação no conjunto de teste resultou em uma acurácia geral decepcionante de $41.18\%$, significativamente inferior ao baseline ZeroR ($54.41\%$). O baixo valor do Kappa Statistic ($\mathbf{0.0166}$) e o aumento do Root relative squared error para $140.53\%$ indicam uma fraca capacidade de classificação e um desempenho de erro pior do que o de um chute baseado na classe majoritária. Embora o OneR tenha feito previsões para todas as classes (ao contrário do ZeroR, que só previa "Neutra"), sua baixa precisão e Recall (especialmente para a classe Negativa, com apenas $0.182$) evidenciam que regras baseadas em um único atributo são insuficientes para capturar a complexa interação de fatores que definem a UX. A conclusão é clara: para classificar a UX neste conjunto de dados, é imperativo utilizar modelos que considerem a combinação e a influência mútua de múltiplos atributos preditores.
 
- 
 ### J48 (Algaritmo "árvore")
 
 #### Imagens dos Resultados Coletados do Algoritmo
