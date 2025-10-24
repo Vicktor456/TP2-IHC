@@ -29,20 +29,21 @@ A natureza multiclasse do problema se justifica pela diversidade de percepções
 
 # Base Sintética
 
-# Resultados dos Experimentos do Weka
+## Resultados dos Experimentos do Weka
 
-## Análise dos Gráficos de Correlação dos Atributos
-### Tabela de Gráficos Completa
+### Análise dos Gráficos de Correlação dos Atributos
+
+#### Tabela de Gráficos Completa
 
 <img width="1071" height="995" alt="image" src="https://github.com/user-attachments/assets/6539a6ba-9217-435f-a8da-b5302a472ab9" />
 
-### Eficiência de Resposta x Tempo de Atividade
+#### Eficiência de Resposta x Tempo de Atividade
 
 <img width="1363" height="746" alt="image" src="https://github.com/user-attachments/assets/79f1cb09-51ca-4361-9358-2204cacbda2e" />
 
 Interpretação: Em geral, observa-se que usuários com maior tempo de atividade tendem a apresentar eficiências de resposta ligeiramente superiores, sugerindo que o uso contínuo pode estar associado a uma melhor adaptação ao sistema ou a um comportamento mais estável de desempenho. Apesar disso, a dispersão dos pontos indica que essa relação não é linear nem consistente — existem casos de alta eficiência mesmo com pouco tempo de atividade, assim como situações opostas. Portanto, o Tempo de Atividade exerce alguma influência sobre a Eficiência de Resposta, mas não de forma determinante.
 
-### Indice de Imersao x Tempo de Atividade
+#### Indice de Imersao x Tempo de Atividade
 
 <img width="1365" height="744" alt="image" src="https://github.com/user-attachments/assets/e96371c2-174c-4f2a-b11b-a35d20521c07" />
 
@@ -51,13 +52,13 @@ A correlação é relevante para compreender o comportamento dos usuários em re
 Além disso, observa-se que, nas regiões onde o IIA é elevado, há uma maior concentração de experiências positivas (em azul), o que reforça a hipótese de que imersão e satisfação estão fortemente relacionadas.
 Usuários com baixo índice de imersão tendem a apresentar experiências neutras ou negativas, uma vez que o sistema não consegue sustentar seu interesse de forma eficaz.
 
-### Tempo de Atividade x Quantidade de tempo de anuncio
+#### Tempo de Atividade x Quantidade de tempo de anuncio
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/f682bdc9-f91d-4a69-9bf5-10aa62b93795" />
 
 Interpretação: A análise do gráfico de dispersão, que correlaciona o Tempo de Atividade versus a Quantidade de Tempo de Anúncio, revela uma relação crucial para a Experiência do Usuário (UX): embora não haja uma correlação linear uniforme em toda a base de dados, a presença de pontos vermelhos, que representam a Classe-Alvo Negativa, é mais densa na região onde o Tempo de Anúncio é elevado (acima de 35 segundos) e o Tempo de Atividade é baixo (abaixo de 45 minutos). Isso confirma que, ao obtermos dados negativos no atributo Quantidade de tempo de Anúncio, o atributo Tempo de Atividade também pode ficar com dados negativos, pois anúncios com tempo grande afetam negativamente a experiência do usuário, levando a um abandono mais rápido e, consequentemente, diminuindo o tempo de permanência na sessão. Inversamente, a UX Positiva (pontos verdes) concentra-se em regiões de baixo tempo de anúncio e alto tempo de atividade.
 
-### Confianca de Privacidade x Tempo de Atividade
+#### Confianca de Privacidade x Tempo de Atividade
 
 <img width="1364" height="743" alt="image" src="https://github.com/user-attachments/assets/9dde238f-7b02-4268-a927-5c6c95dd4f67" />
 
@@ -66,21 +67,21 @@ Interpretação: A correlação entre o Tempo de Atividade e a Confiança na Pri
 Usuários que acreditam que suas informações estão seguras sentem-se mais confortáveis para navegar por períodos prolongados, enquanto aqueles que desconfiam da privacidade tendem a reduzir seu tempo de permanência, apresentando experiências negativas ou neutras.
 
 
-### Quantidade de tempo de anuncio x Confianca de Privacidade
+#### Quantidade de tempo de anuncio x Confianca de Privacidade
 
 <img width="1365" height="749" alt="image" src="https://github.com/user-attachments/assets/0f8df6a6-e5b0-41e9-8781-5f3e3bf688ed" />
 
 
 Interpretação: A correlação visual indica que quanto menor o tempo de anúncios exibidos, maior tende a ser a confiança de privacidade do usuário e, consequentemente, melhor é a experiência geral. Essa relação indica que a presença excessiva de anúncios pode causar sensação de invasão ou exposição de dados pessoais, levando o usuário a acreditar que suas informações estão sendo utilizadas de forma inadequada para fins de marketing. Por outro lado, quando o sistema apresenta poucos anúncios ou anúncios curtos, o usuário percebe o ambiente como mais seguro e confiável, resultando em uma experiência mais positiva.
 
-### Classe Alvo x Tempo de Anuncio
+#### Classe Alvo x Tempo de Anuncio
 
 <img width="1359" height="742" alt="image" src="https://github.com/user-attachments/assets/33b4d3cf-3fb9-444b-b311-2bd340b4ea2a" />
 
 Interpretação:A relação entre a quantidade de tempo de anúncio e a classe-alvo (experiência do usuário), percebe-se um padrão de comportamento, a experiência positiva se concentram em regiões onde o tempo de anúncio é menor que 30 segundos, já as experiências negativas são localizados em regiões onde o anúncio tem tempo maior que 30 segundos, e conforme aumenta o tempo a experiência do usuário fica cada vez mais desagradável.
 Essa tendência evidencia que o tempo e a frequência de anúncios são fatores altamente discriminatórios para a avaliação da experiência do usuário (UX).
 
-### Classe Alvo x Confiança de Privacidade
+#### Classe Alvo x Confiança de Privacidade
 
 <img width="1361" height="744" alt="image" src="https://github.com/user-attachments/assets/e44525af-03ce-484f-9515-e45635ca8810" />
 
@@ -89,7 +90,7 @@ Por outro lado, baixa confiança gera mais experiências negativas, refletindo o
 As experiências neutras aparecem em quantidade relevante, sugerindo que muitos usuários mantêm uma postura indiferente em relação à privacidade, seja por hábito ou falta de conhecimento.
 Em síntese, o gráfico indica que, embora exista uma relação entre a confiança na privacidade e a experiência do usuário, esse fator não se mostra tão determinante quanto outros, como o índice de imersão algorítmica. A confiança influencia a percepção geral, mas não é o principal elemento na definição da experiência digital, atuando mais como um complemento à sensação de segurança e conforto durante o uso das redes sociais.
 
-### Classe Alvo x Tempo de Atividade
+#### Classe Alvo x Tempo de Atividade
 
 <img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/c09a91a4-347a-43e0-83f8-f6a7618d13d4" />
 
@@ -98,7 +99,7 @@ Usuários que permanecem por longos períodos demonstram afinidade com a dinâmi
 Dessa forma, o gráfico evidencia que o tempo de atividade é um forte indicador da qualidade da experiência do usuário, funcionando como um reflexo direto do grau de satisfação e engajamento com o sistema.
 
 
-### Classe Alvo x IIA
+#### Classe Alvo x IIA
 
 <img width="1365" height="749" alt="image" src="https://github.com/user-attachments/assets/c547f03f-5289-4ce6-8de4-b2e8d3dc785a" />
 
@@ -109,7 +110,7 @@ Por outro lado, níveis reduzidos de imersão estão associados a maior incidên
 Em síntese, o gráfico evidencia que o grau de imersão algorítmica é um fator determinante para a qualidade subjetiva da experiência do usuário, reforçando o papel dos algoritmos na criação de ambientes digitais mais envolventes, personalizados e satisfatórios.
 
 
-### Classe Alvo x Eficiencia de Resposta
+#### Classe Alvo x Eficiencia de Resposta
 
 <img width="1364" height="742" alt="image" src="https://github.com/user-attachments/assets/bff5f105-2e0a-4782-8c16-ce5c9c39c574" />
 
@@ -117,6 +118,8 @@ Interpretação: A relação entre Eficiência de Resposta do Sistema e Classe-A
 
 
 ## Análise dos Algoritmos
+
+A seguir, será apresentada a análise e descrição dos resultados de desempenho dos principais algoritmos de classificação que servem como ponto de partida e referência na mineração de dados: o baseline ZeroR, a regra de aprendizado simples OneR, o algoritmo de aprendizado baseado em instâncias IBk (k-Nearest Neighbors), a árvore de decisão J48 (uma implementação do C4.5), e o classificador probabilístico Naive Bayes. Esta análise visa determinar quais modelos conseguem capturar melhor os padrões dos atributos preditores para prever a Classe-Alvo (Positiva, Neutra, Negativa) da UX.
 
 ### ZeroR (Algoritmo Base)
 
@@ -187,6 +190,10 @@ a = Positiva
 b = Neutra
 
 c = Negativa
+
+#### Análise e descrição dos resultados (ZeroR)
+
+O algoritmo ZeroR serviu como o classificador baseline mais elementar para o conjunto de dados de UX de Redes Sociais, ignorando todos os atributos preditores e baseando suas previsões exclusivamente na frequência da classe-alvo. Como a classe "Neutra" era a majoritária no conjunto de treinamento, o modelo previu "Neutra" para todas as $68$ instâncias do conjunto de teste. Consequentemente, a acurácia do modelo foi de $54.4118\%$ (37 instâncias corretas), que é o limiar de desempenho esperado para a simples adivinhação da classe majoritária. O Kappa Statistic de $0$ e o Erro Absoluto Relativo de $100\%$ confirmam que o ZeroR não demonstrou qualquer aprendizado real ou aproveitamento das informações dos atributos. A Matriz de Confusão revelou que, embora a classe "Neutra" tenha alcançado um Recall de $100\%$, as classes "Positiva" e "Negativa" foram completamente negligenciadas (Recall de $0.000$), pois o modelo nunca as previu. Em conclusão, os resultados do ZeroR estabelecem o limite mínimo de acurácia para este problema; qualquer algoritmo de classificação subsequente deve superar significativamente os $54.4118\%$ para provar sua eficácia na identificação e diferenciação das três classes de UX.
 
 ### OneR
 
@@ -498,40 +505,64 @@ Test mode:    split 66.0% train, remainder test
 
 Naive Bayes Classifier
 
-                                          Class
-Attribute                              Positiva    Neutra  Negativa
-                                         (0.33)    (0.51)    (0.16)
-====================================================================
+Class
+
+Attribute                              
+Positiva: (0.33)    Neutra: (0.51)  Negativa: (0.16)
+
 Quantidade de tempo de Anuncio
-  mean                                   24.0578   30.8998   35.1893
-  std. dev.                               8.8954   12.2689   11.0106
-  weight sum                                  65       103        32
-  precision                               0.2013    0.2013    0.2013
+
+mean: 24.0578   /   30.8998   /   35.1893
+
+std. dev.: 8.8954   /   12.2689   /   11.0106
+
+weight sum: 65   /   103   /   32
+
+precision: 0.2013   /   0.2013   /   0.2013
+
 
 Confianca de Privacidade
-  mean                                    6.9538    4.9029    3.6875
-  std. dev.                               2.5203    2.8405    2.4036
-  weight sum                                  65       103        32
-  precision                                    1         1         1
+
+mean: 6.9538 / 4.9029 / 3.6875
+
+std. dev.: 2.5203 / 2.8405  /  2.4036
+
+weight sum: 65   /    103    /    32
+
+precision: 1    /     1     /    1
+
 
 Tempo de Atividade
-  mean                                   72.5344   61.1148   46.4284
-  std. dev.                              14.5748   17.6439   15.4468
-  weight sum                                  65       103        32
-  precision                               0.3074    0.3074    0.3074
+
+mean: 72.5344  / 61.1148  / 46.4284
+
+std. dev.: 14.5748  / 17.6439  / 15.4468
+
+weight sum: 65   /    103    /    32
+
+precision: 0.3074  /  0.3074  /  0.3074
+
 
 Indice de Imersao Algoritmica (IIA)
-  mean                                    7.1231    5.3107    2.8125
-  std. dev.                                2.545    2.6985    1.7219
-  weight sum                                  65       103        32
-  precision                                    1         1         1
+
+mean: 7.1231  /  5.3107  /  2.8125
+
+std. dev.: 2.545  /  2.6985  /  1.7219
+
+weight sum: 65    /   103    /    32
+
+precision: 1    /    1    /   1
+
 
 Eficiencia de resposta do Sistema
-  mean                                 1750.0606 2055.0189 2371.1269
-  std. dev.                            1037.2609 1138.7048 1092.2373
-  weight sum                                  65       103        32
-  precision                              20.0518   20.0518   20.0518
 
+mean: 1750.0606 / 2055.0189 / 2371.1269
+
+std. dev.: 1037.2609 / 1138.7048 / 1092.2373
+
+weight sum: 65    /   103    /    32
+
+precision: 20.0518  / 20.0518  /  20.0518
 
 
 Time taken to build model: 0.01 seconds
