@@ -316,43 +316,88 @@ Test mode:    split 66.0% train, remainder test
 J48 pruned tree
 ------------------
 
+# 
+
 Indice de Imersao Algoritmica (IIA) <= 5
+
 |   Confianca de Privacidade <= 4
+
 |   |   Tempo de Atividade <= 53.35: Negativa (19.0/2.0)
+
 |   |   Tempo de Atividade > 53.35
+
 |   |   |   Quantidade de tempo de Anuncio <= 35.34: Neutra (18.0)
+
 |   |   |   Quantidade de tempo de Anuncio > 35.34
+
 |   |   |   |   Indice de Imersao Algoritmica (IIA) <= 4: Negativa (7.0)
+
 |   |   |   |   Indice de Imersao Algoritmica (IIA) > 4: Neutra (2.0)
+
+# 
+
 |   Confianca de Privacidade > 4
+
 |   |   Quantidade de tempo de Anuncio <= 33.7
+
 |   |   |   Tempo de Atividade <= 50.45: Neutra (8.0/1.0)
+
 |   |   |   Tempo de Atividade > 50.45
+
 |   |   |   |   Eficiencia de resposta do Sistema <= 3025: Positiva (16.0/4.0)
+
 |   |   |   |   Eficiencia de resposta do Sistema > 3025: Neutra (5.0)
+
 |   |   Quantidade de tempo de Anuncio > 33.7
+
 |   |   |   Eficiencia de resposta do Sistema <= 2348: Neutra (12.0)
+
 |   |   |   Eficiencia de resposta do Sistema > 2348
+
 |   |   |   |   Tempo de Atividade <= 61.39: Negativa (4.0)
+
 |   |   |   |   Tempo de Atividade > 61.39: Neutra (7.0/1.0)
+
+# 
+
 Indice de Imersao Algoritmica (IIA) > 5
+
 |   Tempo de Atividade <= 62.74
+
 |   |   Quantidade de tempo de Anuncio <= 32.45
+
 |   |   |   Confianca de Privacidade <= 4: Neutra (14.0/1.0)
+
 |   |   |   Confianca de Privacidade > 4: Positiva (15.0/3.0)
+
 |   |   Quantidade de tempo de Anuncio > 32.45
+
 |   |   |   Quantidade de tempo de Anuncio <= 48.87: Neutra (20.0)
+
 |   |   |   Quantidade de tempo de Anuncio > 48.87: Negativa (2.0)
+
+# 
+
 |   Tempo de Atividade > 62.74
+
 |   |   Confianca de Privacidade <= 3
+
 |   |   |   Indice de Imersao Algoritmica (IIA) <= 9
+
 |   |   |   |   Tempo de Atividade <= 66.8: Positiva (3.0)
+
 |   |   |   |   Tempo de Atividade > 66.8: Neutra (8.0)
+
 |   |   |   Indice de Imersao Algoritmica (IIA) > 9: Positiva (3.0)
+
 |   |   Confianca de Privacidade > 3
+
 |   |   |   Eficiencia de resposta do Sistema <= 3025: Positiva (31.0)
+
 |   |   |   Eficiencia de resposta do Sistema > 3025
+
 |   |   |   |   Quantidade de tempo de Anuncio <= 32.45: Positiva (3.0)
+
 |   |   |   |   Quantidade de tempo de Anuncio > 32.45: Neutra (3.0)
 
 Number of Leaves  : 	20
