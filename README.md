@@ -36,3 +36,5 @@ Andrey Antonio de Oliveira Rodrigues
 [ETAPA 3 - Exploração e Classificação no Weka](https://github.com/Vicktor456/TP2-IHC/blob/main/relatorio.md#an%C3%A1lise-dos-gr%C3%A1ficos-de-correla%C3%A7%C3%A3o-dos-atributos)
 
 - [Treinamento de classificadores](https://github.com/Vicktor456/TP2-IHC/blob/main/relatorio.md#an%C3%A1lise-dos-algoritmos).
+
+- [Avaliação](https://github.com/Vicktor456/TP2-IHC/blob/main/relatorio.md#transcri%C3%A7%C3%A3o-3)
