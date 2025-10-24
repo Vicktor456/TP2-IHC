@@ -447,6 +447,10 @@ b = Neutra
 
 c = Negativa
 
+#### Análise e descrição dos resultados (J48)
+
+O algoritmo J48 (Árvore de Decisão) demonstrou ser o modelo mais eficaz para a classificação da UX de Redes Sociais até o momento, superando significativamente os baselines ZeroR e OneR, e provando a necessidade de considerar a interação de múltiplos atributos. Com uma acurácia de $63.24\%$ e um Kappa Statistic notável de $0.3796$, o J48 extraiu conhecimento relevante, confirmando que o Índice de Imersão Algorítmica (IIA) é o fator mais discriminante na raiz da decisão. O modelo gerou regras complexas (20 folhas, tamanho 39) que utilizam todos os 5 atributos. No desempenho por classe, o J48 foi particularmente bem-sucedido, alcançando um Recall excelente de $0.800$ para a classe Positiva e uma alta Precisão de $0.667$ para a classe Negativa (indicando confiabilidade quando a UX é classificada como ruim). Estes resultados demonstram que a UX é mais bem classificada por modelos que exploram a interdependência dos fatores.
+
 ### IBK
 
 #### Imagens dos Resultados Coletados do Algoritmo
