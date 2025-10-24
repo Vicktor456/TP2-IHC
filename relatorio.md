@@ -451,7 +451,7 @@ c = Negativa
 
 O algoritmo J48 (Árvore de Decisão) demonstrou ser o modelo mais eficaz para a classificação da UX de Redes Sociais até o momento, superando significativamente os baselines ZeroR e OneR, e provando a necessidade de considerar a interação de múltiplos atributos. Com uma acurácia de $63.24\%$ e um Kappa Statistic notável de $0.3796$, o J48 extraiu conhecimento relevante, confirmando que o Índice de Imersão Algorítmica (IIA) é o fator mais discriminante na raiz da decisão. O modelo gerou regras complexas (20 folhas, tamanho 39) que utilizam todos os 5 atributos. No desempenho por classe, o J48 foi particularmente bem-sucedido, alcançando um Recall excelente de $0.800$ para a classe Positiva e uma alta Precisão de $0.667$ para a classe Negativa (indicando confiabilidade quando a UX é classificada como ruim). Estes resultados demonstram que a UX é mais bem classificada por modelos que exploram a interdependência dos fatores.
 
-### IBK
+### IBK (k = 1)
 
 #### Imagens dos Resultados Coletados do Algoritmo
 
@@ -523,6 +523,84 @@ b = Neutra
 
 c = Negativa
 
+#### Análise e descrição dos resultados (IBK / K = 1)
+
+O algoritmo IBk (Vizinho Mais Próximo, $k=1$) emergiu como o classificador de maior sucesso para o problema de avaliação da UX de Redes Sociais, estabelecendo um desempenho de acurácia recorde de $79.41\%$ e um forte Kappa Statistic de $0.6569$. Esse desempenho superior, que supera o ZeroR ($54.41\%$) e o sofisticado J48 ($63.24\%$), sugere que as instâncias pertencentes às diferentes categorias de UX (Positiva, Neutra, Negativa) estão claramente agrupadas no espaço dos atributos. A simplicidade de classificar uma nova instância pela proximidade ao seu vizinho mais próximo provou ser extremamente eficaz. O IBk demonstrou alta confiabilidade em todas as classes, destacando-se com um Recall quase perfeito de $0.950$ na classe Positiva e uma Precisão muito alta de $0.875$ na classe Negativa. Tais resultados robustos indicam que a métrica de similaridade de distância (Euclidiana) é altamente adequada para capturar as fronteiras de decisão da UX neste conjunto de dados.
+
+### IBK (k = 3)
+
+#### Imagens dos Resultados Coletados do Algoritmo
+
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/c2cad9b6-de0b-48b5-8638-ba0f3841465a" />
+
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/0576a608-eb99-4f1e-a8ec-226fc9824438" />
+
+#### Transcrição
+
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     experiencia_usuario_redes_sociais
+Instances:    200
+Attributes:   6
+              Quantidade de tempo de Anuncio
+              Confianca de Privacidade
+              Tempo de Atividade
+              Indice de Imersao Algoritmica (IIA)
+              Eficiencia de resposta do Sistema
+              Classe-Alvo
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          55               80.8824 %
+Incorrectly Classified Instances        13               19.1176 %
+Kappa statistic                          0.6776
+Mean absolute error                      0.1655
+Root mean squared error                  0.3023
+Relative absolute error                 41.1464 %
+Root relative squared error             67.8307 %
+Total Number of Instances               68     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,800    0,125    0,727      0,800    0,762      0,657    0,934     0,809     Positiva
+                 0,811    0,194    0,833      0,811    0,822      0,616    0,880     0,876     Neutra
+                 0,818    0,018    0,900      0,818    0,857      0,832    0,986     0,879     Negativa
+Weighted Avg.    0,809    0,145    0,813      0,809    0,810      0,663    0,913     0,857     
+
+=== Confusion Matrix ===
+
+a  b  c   <-- classified as
+
+16  4  0
+ 
+6 30  1
+  
+0  2  9
+
+a = Positiva
+
+b = Neutra
+
+c = Negativa
+
+#### Análise e descrição dos resultados (IBK / K = 3)
+
+O algoritmo IBk (Vizinho Mais Próximo) com $k=3$ estabeleceu o desempenho mais alto e robusto para a classificação da UX, com uma acurácia de $80.88\%$ e um excelente Kappa Statistic de $0.6776$. Este ligeiro aumento na acurácia e a significativa redução no erro ($RRSE$ de $67.83\%$ vs. $82.24\%$ para $k=1$) demonstram que a votação majoritária de três vizinhos conseguiu suavizar o ruído e otimizar as fronteiras de decisão, resultando em melhor generalização. O modelo se destacou pelo seu equilíbrio e alta confiabilidade em todas as classes: o Recall de $0.811$ e Precisão de $0.833$ na classe Neutra foi superior, mas o avanço mais crítico foi na classe minoritária Negativa, que alcançou o melhor Recall ($0.818$) e a maior Precisão ($0.900$) de todos os modelos. Este alto desempenho na identificação da UX Negativa torna o IBk ($k=3$) o modelo mais valioso para a melhoria da qualidade de serviço, pois é altamente eficaz em apontar as experiências de usuário mais problemáticas.
 
 ### Naive Bayes
 
