@@ -737,5 +737,8 @@ b = Neutra
 
 c = Negativa
 
+#### Análise e descrição dos resultados (Naive Bayes)
+
+O algoritmo Naive Bayes demonstrou um desempenho robusto e eficaz para a classificação da UX, alcançando uma acurácia de $73.53\%$ e um Kappa Statistic de $0.5285$, posicionando-se como o segundo modelo mais forte, logo após o IBk. As estatísticas condicionais do modelo confirmaram que a UX Positiva está fortemente associada a altos valores de Tempo de Atividade e Índice de Imersão Algorítmica (IIA), e a UX Negativa a altos valores de Tempo de Anúncio e Eficiência de Resposta do Sistema. A análise detalhada da matriz de confusão revelou a eficácia do Naive Bayes na identificação da classe Neutra (Recall de $0.838$). No entanto, a suposição de independência dos atributos limitou sua capacidade de identificar a classe Negativa (Recall de $0.455$) quando comparado ao J48 e, principalmente, ao IBk, sugerindo que as instâncias Negativas (UX mais problemática) dependem da interação conjunta dos fatores, o que o Naive Bayes não consegue modelar totalmente.
 
 # Análise critíca dos resultados em relação ao domínio de IHC
