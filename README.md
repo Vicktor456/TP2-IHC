@@ -23,7 +23,7 @@ Andrey Antonio de Oliveira Rodrigues
 
 #  Definição do Problema
 
-[ETAPA 1 - Definição do Problema](https://github.com/Vicktor456/TP2-IHC/blob/main/Defini%C3%A7%C3%A3o%20do%20Problema)
+[ETAPA 1 - Definição do Problema](https://github.com/Vicktor456/TP2-IHC/blob/main/relatorio.md#defini%C3%A7%C3%A3o-do-problema)
 
 
 # Geração da Base de Dados Sintética
