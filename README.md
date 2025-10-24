@@ -38,3 +38,5 @@ Andrey Antonio de Oliveira Rodrigues
 - [Treinamento de classificadores](https://github.com/Vicktor456/TP2-IHC/blob/main/relatorio.md#an%C3%A1lise-dos-algoritmos).
 
 - [Avaliação](https://github.com/Vicktor456/TP2-IHC/blob/main/relatorio.md#transcri%C3%A7%C3%A3o-3)
+
+- [Interpretação dos Modelos]()
